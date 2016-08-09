@@ -1,3 +1,5 @@
-require('./logger');
+import React from 'react';
+import { render } from 'react-dom';
+import Hello from './hello';
 
-alert('hey');
+render(<Hello name="World" />, document.getElementById('app'));
